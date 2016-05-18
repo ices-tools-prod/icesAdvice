@@ -25,7 +25,7 @@ least 95\% sure that B is above Blim, given the estimation uncertainty?
 The ICES (2016) technical guidelines define Bpa as:
 
 \deqn{B_\mathrm{pa} = B_\mathrm{lim} \exp(1.645\sigma_B)}{
-      Bpa = Blim * exp(-1.645*sigmaB)}
+      Bpa = Blim * exp(1.645*sigmaB)}
 }
 \examples{
 Bpa(100, 0.15)
