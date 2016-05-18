@@ -7,7 +7,7 @@ Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"),
 Author: Arni Magnusson [aut, cre], Colin Millar [ctb]
 Maintainer: Arni Magnusson <arni.magnusson@ices.dk>
 Imports: stats
-Description: Provides functions that are related to the advisory work of
-  ICES (International Council for the Exploration of the Sea).
+Description: Functions that are related to the advisory work of ICES
+  (International Council for the Exploration of the Sea).
 License: GPL (>= 2)
 RoxygenNote: 5.0.1

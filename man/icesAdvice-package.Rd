@@ -6,8 +6,8 @@
 \alias{icesAdvice-package}
 \title{Functions Related to ICES Advice}
 \description{
-Provides functions that are related to the advisory work of ICES
-(International Council for the Exploration of the Sea).
+Functions that are related to the advisory work of ICES (International
+Council for the Exploration of the Sea).
 }
 \details{
 \emph{Calculate PA reference points:}
