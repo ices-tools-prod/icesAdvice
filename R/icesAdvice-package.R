@@ -11,6 +11,11 @@
 #' (International Council for the Exploration of the Sea).
 #'
 #' @details
+#' \emph{Calculate PA reference points:}
+#'  \tabular{ll}{
+#'    \code{\link{Bpa}} \tab from Blim\cr
+#'    \code{\link{Fpa}} \tab from Flim
+#'  }
 #' \emph{Calculate sigma:}
 #'  \tabular{ll}{
 #'    \code{\link{sigmaCI}} \tab from confidence interval\cr

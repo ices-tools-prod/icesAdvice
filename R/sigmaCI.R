@@ -10,15 +10,16 @@
 #'
 #' @return Implicit value of sigma.
 #'
-#' @note Useful for reviewing PA reference points, when the report provides a
-#'       CI but not the value of sigma.
+#' @note
+#' Useful for reviewing PA reference points, when the report provides a CI but
+#' not the value of sigma.
 #'
 #' @author Arni Magnusson.
 #'
-#' @seealso \code{\link{sigmaPA}} calculates the implicit sigma from PA
-#'          reference points.
+#' @seealso
+#' \code{\link{sigmaPA}} calculates the implicit sigma from PA reference points.
 #'
-#'          \code{\link{icesAdvice-package}} gives an overview of the package.
+#' \code{\link{icesAdvice-package}} gives an overview of the package.
 #'
 #' @examples
 #' sigmaCI(100, 200)

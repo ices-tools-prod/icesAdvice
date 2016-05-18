@@ -23,8 +23,8 @@ Calculate the implicit sigma that was used to construct a confidence
 interval.
 }
 \note{
-Useful for reviewing PA reference points, when the report provides a
-      CI but not the value of sigma.
+Useful for reviewing PA reference points, when the report provides a CI but
+not the value of sigma.
 }
 \examples{
 sigmaCI(100, 200)
@@ -34,10 +34,9 @@ sigmaCI(100, 200)
 Arni Magnusson.
 }
 \seealso{
-\code{\link{sigmaPA}} calculates the implicit sigma from PA
-         reference points.
+\code{\link{sigmaPA}} calculates the implicit sigma from PA reference points.
 
-         \code{\link{icesAdvice-package}} gives an overview of the package.
+\code{\link{icesAdvice-package}} gives an overview of the package.
 }
 \keyword{distribution}
 
