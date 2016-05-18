@@ -2,3 +2,4 @@
 
 export(sigmaCI)
 export(sigmaPA)
+importFrom(stats,qnorm)

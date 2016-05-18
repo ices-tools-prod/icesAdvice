@@ -6,7 +6,7 @@
 \alias{icesAdvice-package}
 \title{Functions Related to ICES Advice}
 \description{
-This package provides functions that are related to the advisory work of ICES
+Provides functions that are related to the advisory work of ICES
 (International Council for the Exploration of the Sea).
 }
 \details{

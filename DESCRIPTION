@@ -3,10 +3,11 @@ Version: 1.0-0
 Date: 2016-05-17
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"),
-  email="arni.magnusson@ices.dk"))
-Author: Arni Magnusson [aut, cre]
+  email="arni.magnusson@ices.dk"), person("Colin", "Millar", role="ctb"))
+Author: Arni Magnusson [aut, cre], Colin Millar [ctb]
 Maintainer: Arni Magnusson <arni.magnusson@ices.dk>
-Description: This package provides functions that are related to the advisory
-    work of ICES (International Council for the Exploration of the Sea).
+Imports: stats
+Description: Provides functions that are related to the advisory work of
+  ICES (International Council for the Exploration of the Sea).
 License: GPL (>= 2)
 RoxygenNote: 5.0.1

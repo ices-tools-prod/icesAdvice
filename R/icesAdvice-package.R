@@ -1,6 +1,13 @@
-#' Functions Related to ICES Advice
+#' @docType package
 #'
-#' This package provides functions that are related to the advisory work of ICES
+#' @name icesAdvice-package
+#'
+#' @aliases icesAdvice
+#'
+#' @title Functions Related to ICES Advice
+#'
+#' @description
+#' Provides functions that are related to the advisory work of ICES
 #' (International Council for the Exploration of the Sea).
 #'
 #' @details
@@ -10,10 +17,6 @@
 #'    \code{\link{sigmaPA}} \tab from PA reference points
 #'  }
 #'
-#' @docType package
-#'
-#' @name icesAdvice-package
-#'
-#' @aliases icesAdvice
+#' @importFrom stats qnorm
 
 NA
