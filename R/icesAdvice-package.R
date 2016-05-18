@@ -17,6 +17,15 @@
 #'    \code{\link{sigmaPA}} \tab from PA reference points
 #'  }
 #'
+#' @author Arni Magnusson, with contributions from Colin Millar.
+#'
+#' @references
+#' ICES list of software applications:
+#' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
+#'
+#' Overview of the ICES advisory process:
+#' \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
+#'
 #' @importFrom stats qnorm
 
 NA
