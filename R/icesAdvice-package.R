@@ -25,11 +25,11 @@
 #' @author Arni Magnusson, with contributions from Colin Millar.
 #'
 #' @references
-#' ICES list of software applications:
-#' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
-#'
 #' Overview of the ICES advisory process:
 #' \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
+#'
+#' ICES list of software applications:
+#' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
 #'
 #' @importFrom stats qnorm
 
