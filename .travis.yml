@@ -1,2 +1,3 @@
 language: r
+r_packages: rmarkdown
 cache: packages
