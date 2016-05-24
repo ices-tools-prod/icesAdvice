@@ -61,7 +61,7 @@ https://github.com/icesCRAN/icesAdvice
 
 Version 1.1-0 of the package was submitted to CRAN on 18 May, where it can be
 found at:\
-https://cran.r-project.org/web/packages/icesAdvice/
+https://cran.r-project.org/package=icesAdvice
 
 ### Roxygen
 
