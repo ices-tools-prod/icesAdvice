@@ -50,12 +50,12 @@ Fpa(Flim = 0.90, sigmaF = 0.15)
 Calculate sigma:
 
 ```R
-# sigmaCI from confidence interval
+# sigma from confidence interval
 sigmaCI(lo = 100, hi = 200)
 ```
 
 ```R
-# sigmaPA from PA reference points
+# sigma from PA reference point
 sigmaPA(lim = 100, pa = 120)
 ```
 
@@ -76,7 +76,7 @@ ICES list of software applications:
 Development
 -----------
 
-icesAdvice is developed openly on [GitHub](https://github.com/ices-tools-prod/icesAdvice). 
+icesAdvice is developed openly on [GitHub](https://github.com/ices-tools-prod/icesAdvice).
 Feel free to open an [issue](https://github.com/ices-tools-prod/icesAdvice/issues) there if you encounter problems or have suggestions for future versions.
 
 The current development version can be installed using:
