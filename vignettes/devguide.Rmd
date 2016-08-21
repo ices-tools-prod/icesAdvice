@@ -156,6 +156,24 @@ Emacs/RStudio, etc. When collaborating with others in package development and
 maintenance, files or pathways that are specific to one development environment
 should be avoided.
 
+## Version number
+
+The tradition for R packages is to use version numbers that consist of three
+counters, for example 1.2-3. It's practical to have the three counters indicate
+the nature of changes between releases:
+
+1. The first counter (*major*) is incremented when existing user scripts will
+   not give the same output as before. Breaking backward compatibility with a
+   major release can be inconvenient for users, but is sometimes done to adopt
+   an improved overall design.
+
+2. The second counter (*minor*) means new functions, new arguments, or the like.
+   A minor release suggests that it's worthwhile for the user to read about the
+   new functionality.
+
+3. The third counter (*patch*) is used for other improvements. A patch release
+   may introduce bug fixes, improved documentation, etc.
+
 ## Style
 
 There is no need to enforce some ICES style of R code appearance, when it comes
