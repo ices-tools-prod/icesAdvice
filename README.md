@@ -4,7 +4,6 @@
 
 [<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://www.ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://www.ices.dk/Pages/default.aspx)
 
-
 icesAdvice
 ======
 
@@ -13,8 +12,6 @@ Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx).
 
 icesAdvice is implemented as an [R](https://www.r-project.org) package and available on
 [CRAN](https://cran.r-project.org/package=icesAdvice).
-
-
 
 Installation
 ------------
@@ -25,16 +22,15 @@ icesAdvice can be installed from CRAN using the `install.packages` command:
 install.packages('icesAdvice')
 ```
 
-
 Usage
 -----
 
-For a summary of the package
+For a summary of the package:
+
 ```R
 library(icesAdvice)
 ?icesAdvice
 ```
-
 
 Calculate PA reference points:
 
@@ -60,8 +56,6 @@ sigmaCI(lo = 100, hi = 200)
 sigmaPA(lim = 100, pa = 120)
 ```
 
-
-
 References
 ----------
 
@@ -72,7 +66,6 @@ Overview of the ICES advisory process:
 ICES list of software applications:
 
 [http://ices.dk/marine-data/tools/Pages/Software.aspx](http://ices.dk/marine-data/tools/Pages/Software.aspx).
-
 
 Development
 -----------
