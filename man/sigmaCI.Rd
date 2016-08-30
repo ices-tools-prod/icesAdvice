@@ -38,5 +38,4 @@ Arni Magnusson.
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-\keyword{distribution}
 

@@ -34,8 +34,6 @@
 #' @examples
 #' Bpa(100, 0.15)
 #'
-#' @keywords distribution
-#'
 #' @export
 
 Bpa <- function(Blim, sigmaB)

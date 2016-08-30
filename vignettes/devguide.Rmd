@@ -53,11 +53,8 @@ of code and documentation.
 
 ### Repository and distribution
 
-The code repository is temporarily stored at\
-https://github.com/arnima-github/icesAdvice
-
-but the plan is to move it to\
-https://github.com/icesCRAN/icesAdvice
+The code repository is at\
+https://github.com/ices-tools-prod/icesAdvice
 
 Version 1.1-0 of the package was submitted to CRAN on 18 May, where it can be
 found at:\

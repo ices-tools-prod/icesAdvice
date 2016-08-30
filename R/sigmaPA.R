@@ -38,8 +38,6 @@
 #' @examples
 #' sigmaPA(100, 120)
 #'
-#' @keywords distribution
-#'
 #' @export
 
 sigmaPA <- function(lim, pa)

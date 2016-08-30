@@ -24,7 +24,7 @@
 #' @examples
 #' sigmaCI(100, 200)
 #'
-#' @keywords distribution
+#' @importFrom stats qnorm
 #'
 #' @export
 

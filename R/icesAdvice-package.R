@@ -34,7 +34,5 @@
 #'
 #' ICES list of software applications:
 #' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
-#'
-#' @importFrom stats qnorm
 
 NA

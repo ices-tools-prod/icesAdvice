@@ -37,8 +37,6 @@
 #' @examples
 #' Fpa(0.90, 0.15)
 #'
-#' @keywords distribution
-#'
 #' @export
 
 Fpa <- function(Flim, sigmaF)

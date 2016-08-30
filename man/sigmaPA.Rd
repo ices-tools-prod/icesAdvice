@@ -50,5 +50,4 @@ the limit reference points, based on a given sigma.
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-\keyword{distribution}
 

@@ -49,5 +49,4 @@ available at the ACOM Meetings area on the ICES Sharepoint.}
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-\keyword{distribution}
 
