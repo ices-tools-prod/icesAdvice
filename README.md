@@ -59,7 +59,7 @@ sigmaPA(lim = 100, pa = 120)
 References
 ----------
 
-Overview of the ICES advisory process:
+ICES advisory process:
 
 [http://ices.dk/community/advisory-process/Pages/default.aspx](http://ices.dk/community/advisory-process/Pages/default.aspx).
 

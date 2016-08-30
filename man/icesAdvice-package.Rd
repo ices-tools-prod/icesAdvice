@@ -29,7 +29,7 @@ contributing to this package.
 Arni Magnusson, with contributions from Colin Millar.
 }
 \references{
-Overview of the ICES advisory process:
+ICES advisory process:
 \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
 
 ICES list of software applications:
