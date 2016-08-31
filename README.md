@@ -63,7 +63,7 @@ ICES advisory process:
 
 [http://ices.dk/community/advisory-process/Pages/default.aspx](http://ices.dk/community/advisory-process/Pages/default.aspx).
 
-ICES list of software applications:
+ICES software applications:
 
 [http://ices.dk/marine-data/tools/Pages/Software.aspx](http://ices.dk/marine-data/tools/Pages/Software.aspx).
 

@@ -32,7 +32,7 @@
 #' ICES advisory process:
 #' \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
 #'
-#' ICES list of software applications:
+#' ICES software applications:
 #' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
 
 NA
