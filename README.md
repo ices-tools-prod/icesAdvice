@@ -7,11 +7,11 @@
 icesAdvice
 ======
 
-icesAdvice implements functions that are related to the advisory work of [ICES (International
-Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx).
+icesAdvice implements functions that are related to the advisory work of
+[ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx).
 
-icesAdvice is implemented as an [R](https://www.r-project.org) package and available on
-[CRAN](https://cran.r-project.org/package=icesAdvice).
+icesAdvice is implemented as an [R](https://www.r-project.org) package and
+available on [CRAN](https://cran.r-project.org/package=icesAdvice).
 
 Installation
 ------------
@@ -70,8 +70,12 @@ ICES software applications:
 Development
 -----------
 
-icesAdvice is developed openly on [GitHub](https://github.com/ices-tools-prod/icesAdvice).
-Feel free to open an [issue](https://github.com/ices-tools-prod/icesAdvice/issues) there if you encounter problems or have suggestions for future versions.
+icesAdvice is developed openly on
+[GitHub](https://github.com/ices-tools-prod/icesAdvice).
+
+Feel free to open an
+[issue](https://github.com/ices-tools-prod/icesAdvice/issues) there if you
+encounter problems or have suggestions for future versions.
 
 The current development version can be installed using:
 
