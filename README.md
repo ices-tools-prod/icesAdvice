@@ -7,7 +7,7 @@
 icesAdvice
 ======
 
-icesAdvice implements functions that are related to the advisory work of
+icesAdvice provides functions that are related to the advisory work of
 [ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx).
 
 icesAdvice is implemented as an [R](https://www.r-project.org) package and
