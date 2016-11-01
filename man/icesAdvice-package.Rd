@@ -31,8 +31,5 @@ Arni Magnusson, with contributions from Colin Millar.
 \references{
 ICES advisory process:
 \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
-
-ICES software applications:
-\url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
 }
 
