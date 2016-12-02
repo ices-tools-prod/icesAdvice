@@ -29,7 +29,7 @@ The overview is organized as a quick walk through the inner structure of the
 minimal example, the essential topics are visited by going through one file at a
 time.
 
-### Formal references
+### References
 
 The overview concludes with a list of free books and manuals related to R
 package development, where topics are covered in greater depth.
@@ -53,11 +53,11 @@ of code and documentation.
 
 ### Repository and distribution
 
-The code repository is at\
+The code repository is at:\
 https://github.com/ices-tools-prod/icesAdvice
 
-Version 1.1-0 of the package was submitted to CRAN on 18 May, where it can be
-found at:\
+Version 1.1-0 of the package was submitted to CRAN on 18 May 2016, where it can
+be found at:\
 https://cran.r-project.org/package=icesAdvice
 
 ### Roxygen
