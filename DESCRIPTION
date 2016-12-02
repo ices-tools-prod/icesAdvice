@@ -5,8 +5,6 @@ Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
              person("Colin", "Millar", role="ctb"))
 Imports: stats
-Suggests: knitr
-VignetteBuilder: knitr
 Description: Functions that are related to the advisory work of ICES
              (International Council for the Exploration of the Sea).
 License: GPL (>= 2)

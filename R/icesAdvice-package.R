@@ -22,10 +22,6 @@
 #'   \code{\link{sigmaPA}} \tab from PA reference points
 #' }
 #'
-#' @note
-#' \code{browseVignettes("icesAdvice")} shows the development guidelines for
-#' contributing to this package.
-#'
 #' @author Arni Magnusson, with contributions from Colin Millar.
 #'
 #' @references
