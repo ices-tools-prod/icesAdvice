@@ -20,7 +20,7 @@ Installation
 icesAdvice can be installed from CRAN using the `install.packages` command:
 
 ```R
-install.packages('icesAdvice')
+install.packages("icesAdvice")
 ```
 
 Usage
@@ -77,5 +77,6 @@ encounter problems or have suggestions for future versions.
 The current development version can be installed using:
 
 ```R
-devtools::install_github('ices-tools-prod/icesAdvice')
+library(devtools)
+install_github("ices-tools-prod/icesAdvice")
 ```
