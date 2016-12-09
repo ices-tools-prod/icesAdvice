@@ -8,7 +8,8 @@ icesAdvice
 ======
 
 icesAdvice provides functions that are related to the advisory work of
-[ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx).
+[ICES](http://www.ices.dk/Pages/default.aspx) (International Council for the
+Exploration of the Sea).
 
 icesAdvice is implemented as an [R](https://www.r-project.org) package and
 available on [CRAN](https://cran.r-project.org/package=icesAdvice).
