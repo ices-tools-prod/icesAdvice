@@ -32,30 +32,6 @@ library(icesAdvice)
 ?icesAdvice
 ```
 
-Calculate PA reference points:
-
-```R
-# Bpa from Blim
-Bpa(Blim = 100, sigmaB = 0.15)
-```
-
-```R
-# Fpa from Flim
-Fpa(Flim = 0.90, sigmaF = 0.15)
-```
-
-Calculate sigma:
-
-```R
-# sigma from confidence interval
-sigmaCI(lo = 100, hi = 200)
-```
-
-```R
-# sigma from PA reference point
-sigmaPA(lim = 100, pa = 120)
-```
-
 References
 ----------
 

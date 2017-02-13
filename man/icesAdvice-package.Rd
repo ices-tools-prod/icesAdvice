@@ -10,6 +10,10 @@ Functions that are related to the advisory work of ICES (International
 Council for the Exploration of the Sea).
 }
 \details{
+\emph{Evaluate ICES advice:}
+\tabular{ll}{
+  \code{\link{DLS3.2}} \tab DLS method 3.2
+}
 \emph{Calculate PA reference points:}
 \tabular{ll}{
   \code{\link{Bpa}} \tab from Blim\cr
@@ -22,7 +26,7 @@ Council for the Exploration of the Sea).
 }
 }
 \author{
-Arni Magnusson, with contributions from Colin Millar.
+Arni Magnusson and Anne Cooper, with contributions by Colin Millar.
 }
 \references{
 ICES advisory process:

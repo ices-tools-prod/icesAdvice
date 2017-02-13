@@ -1,10 +1,11 @@
 Package: icesAdvice
-Version: 1.1-1
-Date: 2016-05-22
+Version: 1.2-1
+Date: 2017-02-10
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
+             person("Anne", "Cooper", role=c("aut")),
              person("Colin", "Millar", role="ctb"))
-Imports: stats
+Imports: stats, utils
 Description: Functions that are related to the advisory work of ICES
              (International Council for the Exploration of the Sea).
 License: GPL (>= 2)
