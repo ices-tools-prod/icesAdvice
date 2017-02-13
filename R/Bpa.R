@@ -38,6 +38,5 @@
 
 Bpa <- function(Blim, sigmaB)
 {
-  refpt <- Blim * exp(1.645*sigmaB)
-  return(refpt)
+  Blim * exp(1.645*sigmaB)
 }

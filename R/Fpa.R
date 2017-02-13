@@ -41,6 +41,5 @@
 
 Fpa <- function(Flim, sigmaF)
 {
-  refpt <- Flim * exp(-1.645*sigmaF)
-  return(refpt)
+  Flim * exp(-1.645*sigmaF)
 }

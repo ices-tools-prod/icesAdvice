@@ -13,9 +13,9 @@
 #' The reference vectors \code{i1} and \code{i2} will then be evaluated
 #' automatically as
 #'
-#'   i1 = (I[n-4], I[n-3], I[n-2])
+#' \verb{  }i1 = (I[n-4], I[n-3], I[n-2])
 #'
-#'   i2 = (I[n-1], I[n])
+#' \verb{  }i2 = (I[n-1], I[n])
 #'
 #' where I is a survey index vector of length n.
 #'
@@ -52,6 +52,12 @@
 #' DLS3.2(1000, survey$z)
 #' DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
 #'
+#' # Visualize
+#' output <- DLS3.2(1000, survey$y)
+#' plot(y~year, survey, ylab="index", type="b", lty=3)
+#' segments(2006, output$i1bar, 2008, lwd=2)
+#' segments(2009, output$i2bar, 2010, lwd=2)
+#'
 #' @importFrom utils head tail
 #'
 #' @export
@@ -61,7 +67,8 @@ DLS3.2 <- function(lastadvice, index, prebuffer=FALSE,
 {
   change <- mean(i2) / mean(i1)
   multiplier <- max(0.8, min(1.2, change))
-  multiplier <- multiplier * (1-0.2*prebuffer)
+  if(prebuffer)
+    multiplier <- 0.8 * multiplier
 
   advice <- multiplier * lastadvice
 

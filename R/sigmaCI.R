@@ -34,5 +34,5 @@ sigmaCI <- function(lo, hi, log=TRUE, level=0.95)
   alpha <- 1 - level
   z <- qnorm(1 - alpha/2)
   sigma <- 0.5*rng / z
-  return(sigma)
+  sigma
 }
