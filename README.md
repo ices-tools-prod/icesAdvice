@@ -5,7 +5,7 @@
 [<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://www.ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://www.ices.dk/Pages/default.aspx)
 
 icesAdvice
-======
+==========
 
 icesAdvice provides functions that are related to the advisory work of
 [ICES](http://www.ices.dk/Pages/default.aspx).

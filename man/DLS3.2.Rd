@@ -20,10 +20,11 @@ DLS3.2(lastadvice, index, prebuffer = FALSE, i1 = head(tail(index, 5), 3),
 }
 \value{
 A list containing the resulting \code{advice} and other elements showing
-intermediate steps in the calculation.
+intermediate steps in the calculations.
 }
 \description{
-Evaluate ICES method 3.2 for data-limited stocks (DLS).
+Apply ICES method 3.2 to calculate catch advice for data-limited stocks
+(DLS).
 }
 \details{
 In the simplest case, only \code{lastadvice} and \code{index} are required.
@@ -41,9 +42,8 @@ manually, in which case the \code{index} vector is ignored. This can be
 useful to specify reference periods that are different from the default, or
 to work around \code{NA} values in the survey index. Missing values are not
 permitted in the reference vectors \code{i1} and \code{i2}.
-}
-\note{
-See the ICES (2012) guidance report for more information.
+
+See the ICES (2012) guidance report for details.
 }
 \examples{
 # Three hypothetical surveys
@@ -57,7 +57,7 @@ DLS3.2(1000, survey$y, prebuffer=TRUE)
 DLS3.2(1000, survey$z)
 DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
 
-# Visualize
+# Plot
 output <- DLS3.2(1000, survey$y)
 plot(y~year, survey, ylab="index", type="b", lty=3)
 segments(2006, output$i1bar, 2008, lwd=2)

@@ -1,6 +1,7 @@
 #' DLS Method 3.2
 #'
-#' Evaluate ICES method 3.2 for data-limited stocks (DLS).
+#' Apply ICES method 3.2 to calculate catch advice for data-limited stocks
+#' (DLS).
 #'
 #' @param lastadvice last catch advice given for this stock.
 #' @param index survey index vector.
@@ -25,11 +26,11 @@
 #' to work around \code{NA} values in the survey index. Missing values are not
 #' permitted in the reference vectors \code{i1} and \code{i2}.
 #'
+#' See the ICES (2012) guidance report for details.
+#'
 #' @return
 #' A list containing the resulting \code{advice} and other elements showing
-#' intermediate steps in the calculation.
-#'
-#' @note See the ICES (2012) guidance report for more information.
+#' intermediate steps in the calculations.
 #'
 #' @author Anne Cooper and Arni Magnusson.
 #'
@@ -52,7 +53,7 @@
 #' DLS3.2(1000, survey$z)
 #' DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
 #'
-#' # Visualize
+#' # Plot
 #' output <- DLS3.2(1000, survey$y)
 #' plot(y~year, survey, ylab="index", type="b", lty=3)
 #' segments(2006, output$i1bar, 2008, lwd=2)
