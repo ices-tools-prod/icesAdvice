@@ -22,7 +22,7 @@ Calculate the value of Bpa from Blim and sigmaB.
 By comparing the current B to Bpa, one can answer the question: are we at
 least 95\% sure that B is above Blim, given the estimation uncertainty?
 
-The ICES (2016) technical guidelines define Bpa as:
+The ICES (2017) technical guidelines define Bpa as:
 
 \deqn{B_\mathrm{pa} = B_\mathrm{lim} \exp(1.645\sigma_B)}{
       Bpa = Blim * exp(1.645*sigmaB)}
@@ -35,9 +35,10 @@ Bpa(100, 0.15)
 Arni Magnusson.
 }
 \references{
-ICES. 2016. Advice Technical Guidelines: ICES fisheries management reference
-points for category 1 stocks. \cite{Draft document version 30 (2016-04-21),
-available at the ACOM Meetings area on the ICES Sharepoint.}
+ICES. 2017. ICES fisheries management reference points for category 1
+and 2 stocks.
+\href{http://ices.dk/sites/pub/Publication\%20Reports/Advice/2017/2017/12.04.03.01_Reference_points_for_category_1_and_2.pdf}{\cite{ICES
+Advice Technical Guidelines} 12.4.3.1}.
 }
 \seealso{
 \code{\link{Fpa}} calculates that reference point from Flim and sigmaF.
