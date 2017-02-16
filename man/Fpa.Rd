@@ -22,7 +22,7 @@ Calculate the value of Fpa from Flim and sigmaF.
 By comparing the current F to Fpa, one can answer the question: are we at
 least 95\% sure that F is below Flim, given the estimation uncertainty?
 
-The ICES (2016) technical guidelines define Fpa as:
+The ICES (2017) technical guidelines define Fpa as:
 
 \deqn{F_\mathrm{pa} = F_\mathrm{lim} \exp(-1.645\sigma_F)}{
       Fpa = Flim * exp(-1.645*sigmaF)}
