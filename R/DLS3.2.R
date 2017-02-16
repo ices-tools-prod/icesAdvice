@@ -5,7 +5,7 @@
 #'
 #' @param lastadvice last catch advice given for this stock.
 #' @param index survey index vector.
-#' @param prebuffer whether to apply a -20\% precautionary buffer.
+#' @param buffer whether to apply a -20\% precautionary buffer.
 #' @param i1 survey index values reflecting previous stock size.
 #' @param i2 survey index values reflecting current stock size.
 #'
@@ -48,7 +48,7 @@
 #' DLS3.2(1000, survey$x)
 #'
 #' DLS3.2(1000, survey$y)
-#' DLS3.2(1000, survey$y, prebuffer=TRUE)
+#' DLS3.2(1000, survey$y, buffer=TRUE)
 #'
 #' DLS3.2(1000, survey$z)
 #' DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
@@ -63,16 +63,16 @@
 #'
 #' @export
 
-DLS3.2 <- function(lastadvice, index, prebuffer=FALSE,
+DLS3.2 <- function(lastadvice, index, buffer=FALSE,
                    i1=head(tail(index,5),3), i2=tail(index,2))
 {
   change <- mean(i2) / mean(i1)
   multiplier <- max(0.8, min(1.2, change))
-  if(prebuffer)
+  if(buffer)
     multiplier <- 0.8 * multiplier
 
   advice <- multiplier * lastadvice
 
   list(lastadvice=lastadvice, i1=i1, i2=i2, i1bar=mean(i1), i2bar=mean(i2),
-       change=change, prebuffer=prebuffer, multiplier=multiplier, advice=advice)
+       change=change, buffer=buffer, multiplier=multiplier, advice=advice)
 }

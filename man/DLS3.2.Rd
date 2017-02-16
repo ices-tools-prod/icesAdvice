@@ -4,7 +4,7 @@
 \alias{DLS3.2}
 \title{DLS Method 3.2}
 \usage{
-DLS3.2(lastadvice, index, prebuffer = FALSE, i1 = head(tail(index, 5), 3),
+DLS3.2(lastadvice, index, buffer = FALSE, i1 = head(tail(index, 5), 3),
   i2 = tail(index, 2))
 }
 \arguments{
@@ -12,7 +12,7 @@ DLS3.2(lastadvice, index, prebuffer = FALSE, i1 = head(tail(index, 5), 3),
 
 \item{index}{survey index vector.}
 
-\item{prebuffer}{whether to apply a -20\% precautionary buffer.}
+\item{buffer}{whether to apply a -20\% precautionary buffer.}
 
 \item{i1}{survey index values reflecting previous stock size.}
 
@@ -52,7 +52,7 @@ survey <- data.frame(year=2001:2010, randu[1:10,])
 DLS3.2(1000, survey$x)
 
 DLS3.2(1000, survey$y)
-DLS3.2(1000, survey$y, prebuffer=TRUE)
+DLS3.2(1000, survey$y, buffer=TRUE)
 
 DLS3.2(1000, survey$z)
 DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
