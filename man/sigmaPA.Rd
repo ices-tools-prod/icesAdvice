@@ -38,9 +38,6 @@ The inference is based on the following relationships:
 sigmaPA(100, 120)
 
 }
-\author{
-Arni Magnusson.
-}
 \seealso{
 \code{\link{sigmaCI}} calculates the implicit sigma from a confidence
 interval.
@@ -50,4 +47,6 @@ the limit reference points, based on a given sigma.
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-
+\author{
+Arni Magnusson.
+}

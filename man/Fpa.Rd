@@ -34,9 +34,6 @@ on harvest rate: Hpa from Hlim and sigmaH.
 Fpa(0.90, 0.15)
 
 }
-\author{
-Arni Magnusson.
-}
 \references{
 ICES. 2017. ICES fisheries management reference points for category 1
 and 2 stocks.
@@ -50,4 +47,6 @@ Advice Technical Guidelines} 12.4.3.1}.
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-
+\author{
+Arni Magnusson.
+}

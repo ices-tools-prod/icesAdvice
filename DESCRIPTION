@@ -9,4 +9,4 @@ Imports: stats, utils
 Description: Functions that are related to the advisory work of ICES
              (International Council for the Exploration of the Sea).
 License: GPL (>= 2)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

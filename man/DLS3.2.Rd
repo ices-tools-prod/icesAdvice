@@ -64,9 +64,6 @@ segments(2006, output$i1bar, 2008, lwd=2)
 segments(2009, output$i2bar, 2010, lwd=2)
 
 }
-\author{
-Anne Cooper and Arni Magnusson.
-}
 \references{
 ICES. 2012. ICES DLS guidance report: ICES implementation of advice for
 data-limited stocks in 2012 in its 2012 advice. \cite{ICES CM 2012/ACOM:68.}
@@ -74,4 +71,6 @@ data-limited stocks in 2012 in its 2012 advice. \cite{ICES CM 2012/ACOM:68.}
 \seealso{
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
-
+\author{
+Anne Cooper and Arni Magnusson.
+}

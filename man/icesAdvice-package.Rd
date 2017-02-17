@@ -2,8 +2,8 @@
 % Please edit documentation in R/icesAdvice-package.R
 \docType{package}
 \name{icesAdvice-package}
-\alias{icesAdvice}
 \alias{icesAdvice-package}
+\alias{icesAdvice}
 \title{Functions Related to ICES Advice}
 \description{
 Functions that are related to the advisory work of ICES (International
@@ -25,11 +25,10 @@ Council for the Exploration of the Sea).
   \code{\link{sigmaPA}} \tab from PA reference points
 }
 }
-\author{
-Arni Magnusson and Anne Cooper, with contributions by Colin Millar.
-}
 \references{
 ICES advisory process:
 \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
 }
-
+\author{
+Arni Magnusson and Anne Cooper, with contributions by Colin Millar.
+}
