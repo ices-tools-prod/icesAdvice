@@ -30,6 +30,6 @@
 #'
 #' @references
 #' ICES advisory process:
-#' \url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
+#' \url{http://ices.dk/community/advisory-process/}.
 
 NA

@@ -27,7 +27,7 @@ Council for the Exploration of the Sea).
 }
 \references{
 ICES advisory process:
-\url{http://ices.dk/community/advisory-process/Pages/default.aspx}.
+\url{http://ices.dk/community/advisory-process/}.
 }
 \author{
 Arni Magnusson and Anne Cooper, with contributions by Colin Millar.
