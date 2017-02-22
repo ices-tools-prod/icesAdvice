@@ -6,7 +6,7 @@ Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnus
              person("Anne", "Cooper", role=c("aut")),
              person("Colin", "Millar", role="ctb"))
 Imports: stats, utils
-Description: Functions that are related to the advisory work of ICES
-             (International Council for the Exploration of the Sea).
+Description: Functions that are related to the ICES advisory process.
 License: GPL (>= 2)
+URL: http://ices.dk/community/advisory-process/
 RoxygenNote: 6.0.1

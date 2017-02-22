@@ -7,8 +7,7 @@
 #' @title Functions Related to ICES Advice
 #'
 #' @description
-#' Functions that are related to the advisory work of ICES (International
-#' Council for the Exploration of the Sea).
+#' Functions that are related to the ICES advisory process.
 #'
 #' @details
 #' \emph{Evaluate ICES advice:}
