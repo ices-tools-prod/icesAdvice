@@ -2,13 +2,13 @@
 [![CRAN Status](http://www.r-pkg.org/badges/version/icesAdvice)](https://cran.r-project.org/package=icesAdvice)
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/icesAdvice)](https://cran.r-project.org/package=icesAdvice)
 
-[<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://www.ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://www.ices.dk/Pages/default.aspx)
+[<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://ices.dk)
 
 icesAdvice
 ==========
 
-icesAdvice provides functions that are related to the advisory work of
-[ICES](http://ices.dk).
+icesAdvice provides functions that are related to the [ICES](http://ices.dk)
+[advisory process](http://ices.dk/community/advisory-process/).
 
 icesAdvice is implemented as an [R](https://www.r-project.org) package and
 available on [CRAN](https://cran.r-project.org/package=icesAdvice).
