@@ -36,7 +36,7 @@ References
 ----------
 
 ICES advisory process:
-[http://ices.dk/community/advisory-process/Pages/default.aspx](http://ices.dk/community/advisory-process/Pages/default.aspx)
+http://ices.dk/community/advisory-process/
 
 Development
 -----------
