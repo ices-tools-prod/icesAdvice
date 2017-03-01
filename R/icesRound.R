@@ -33,11 +33,15 @@
 #' \code{\link{icesAdvice-package}} gives an overview of the package.
 #'
 #' @examples
+#' icesRound(0.123456)
+#' icesRound(0.2468)
+#'
+#' ## Example from the ICES Technical Guidelines
 #' Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
 #'             0.02315, 1.168, 2.15678, 9.546, 10.546, 23.445, -1.482, -9.09,
 #'             0.51, 130.11)
 #' Rounded <- icesRound(Actual)
-#' data.frame(Actual, Rounded)
+#' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 #'
 #' @export
 
@@ -49,6 +53,7 @@ icesRound <- function(x)
   }
   else
   {
+    x <- as.numeric(x)
     onlySig <- sub("0\\.0*", "", abs(x))
     firstSig <- substr(onlySig, 1, 1)
     if(firstSig >= 2)
