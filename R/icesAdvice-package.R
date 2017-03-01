@@ -12,7 +12,8 @@
 #' @details
 #' \emph{Evaluate ICES advice:}
 #' \tabular{ll}{
-#'   \code{\link{DLS3.2}} \tab DLS method 3.2
+#'   \code{\link{DLS3.2}}    \tab DLS method 3.2\cr
+#'   \code{\link{icesRound}} \tab rounding method
 #' }
 #' \emph{Calculate PA reference points:}
 #' \tabular{ll}{

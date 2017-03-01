@@ -3,6 +3,7 @@
 export(Bpa)
 export(DLS3.2)
 export(Fpa)
+export(icesRound)
 export(sigmaCI)
 export(sigmaPA)
 importFrom(stats,qnorm)
