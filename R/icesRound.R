@@ -9,10 +9,12 @@
 #'
 #' @note
 #' This function implements the following ICES rounding method:
-#' i) Round to two significant figures when the first non-zero digit is 2 or
-#' larger.
-#' ii) Round to three significant figures when the first non-zero digit is 1.
-#'
+#' \tabular{rl}{
+#'    i) \tab Round to two significant figures when the first non-zero digit is
+#'            2 or larger.\cr
+#'   ii) \tab Round to three significant figures when the first non-zero digit
+#'            is 1.
+#' }
 #' As indicated in the ICES (2017) technical guidelines, this rounding method
 #' should not be applied to biomass, catch, or number of individuals. For those
 #' quantities, use the normal \code{round} function instead.
