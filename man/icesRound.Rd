@@ -45,9 +45,9 @@ print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 
 }
 \references{
-ICES. 2017. Rounding rules to be applied in ICES advice. \cite{Draft document
-version 23 (2017-03-01), available at the Advice Technical Guidelines area on
-the ICES Sharepoint.}
+ICES. 2017. Rounding rules to be applied in ICES advice.
+\href{http://ices.dk/sites/pub/Publication\%20Reports/Advice/2017/2017/16.05.03_Rounding_rules_in_ICES_advice.pdf}{\cite{ICES
+Advice Technical Guidelines 16.5.3}}.
 }
 \seealso{
 \code{\link{signif}} rounds values to a specified number of significant

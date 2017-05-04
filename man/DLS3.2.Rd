@@ -67,7 +67,8 @@ segments(2009, output$i2bar, 2010, lwd=2)
 \references{
 ICES. 2012. ICES DLS guidance report: ICES implementation of advice for
 data-limited stocks in 2012 in its 2012 advice.
-\href{http://ices.dk/sites/pub/Publication\%20Reports/Expert\%20Group\%20Report/acom/2012/ADHOC/DLS\%20Guidance\%20Report\%202012.pdf}{\cite{ICES CM 2012/ACOM:68.}}
+\href{http://ices.dk/sites/pub/Publication\%20Reports/Expert\%20Group\%20Report/acom/2012/ADHOC/DLS\%20Guidance\%20Report\%202012.pdf}{\cite{ICES
+CM 2012/ACOM:68}}.
 }
 \seealso{
 \code{\link{icesAdvice-package}} gives an overview of the package.
