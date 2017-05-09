@@ -36,7 +36,7 @@
 #' icesRound(0.123456)
 #' icesRound(0.2468)
 #'
-#' ## Formatted string or convert to numeric
+#' ## Formatted string or numeric
 #' icesRound(1.0)
 #' as.numeric(icesRound(1.0))
 #'
