@@ -24,6 +24,14 @@ Functions that are related to the ICES advisory process.
   \code{\link{sigmaCI}} \tab from confidence interval\cr
   \code{\link{sigmaPA}} \tab from PA reference points
 }
+\emph{Retrospective diagnostics:}
+\tabular{ll}{
+  \code{\link{mohn}} \tab Mohn's rho
+}
+\emph{Example tables:}
+\tabular{ll}{
+  \code{\link{icod}} \tab Icelandic cod retro
+}
 }
 \references{
 ICES advisory process:
