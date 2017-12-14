@@ -21,8 +21,7 @@ bias.}
 \item{\dots}{passed to \code{matplot} and \code{points}.}
 }
 \value{
-Mohn's rho, along with intermediate calculations if
-\code{details = TRUE}.
+Mohn's rho, along with intermediate calculations if \code{details = TRUE}.
 }
 \description{
 Calculate Mohn's rho, the average relative bias of retrospective estimates.

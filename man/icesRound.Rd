@@ -10,8 +10,7 @@ icesRound(x)
 \item{x}{the value(s) to round.}
 }
 \value{
-Rounded value(s) as a \code{noquote} string object, retaining
-trailing zeros.
+Rounded value(s) as a \code{noquote} string object, retaining trailing zeros.
 }
 \description{
 Round a value according to the ICES Advice Technical Guidelines.

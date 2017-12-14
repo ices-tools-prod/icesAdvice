@@ -4,8 +4,8 @@
 #'
 #' @param x the value(s) to round.
 #'
-#' @return Rounded value(s) as a \code{noquote} string object, retaining
-#' trailing zeros.
+#' @return
+#' Rounded value(s) as a \code{noquote} string object, retaining trailing zeros.
 #'
 #' @note
 #' This function implements the following ICES rounding method:

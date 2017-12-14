@@ -5,7 +5,7 @@
 #' @param x a matrix or data frame containing retrospective estimates in
 #'        columns, with years as row names.
 #' @param peels the number of retrospective peels to use in the calculation of
-#'   rho. The default is to use all retrospective columns in \code{x}.
+#'        rho. The default is to use all retrospective columns in \code{x}.
 #' @param details whether to return the intermediate calculations of relative
 #'        bias.
 #' @param plot whether to plot the retrospective trajectories.
@@ -16,8 +16,8 @@
 #' the calculation of Mohn's rho. To produce a fully formatted plot, bypass the
 #' \code{mohn} function and plot the \code{x} data directly.
 #'
-#' @return Mohn's rho, along with intermediate calculations if
-#' \code{details = TRUE}.
+#' @return
+#' Mohn's rho, along with intermediate calculations if \code{details = TRUE}.
 #'
 #' @note
 #' Relative bias is defined as
