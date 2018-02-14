@@ -30,7 +30,7 @@ Functions that are related to the ICES advisory process.
 }
 \emph{Example tables:}
 \tabular{ll}{
-  \code{\link{icod}} \tab Icelandic cod retro
+  \code{\link{shake}} \tab Southern hake retro
 }
 }
 \references{

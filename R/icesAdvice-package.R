@@ -30,7 +30,7 @@
 #' }
 #' \emph{Example tables:}
 #' \tabular{ll}{
-#'   \code{\link{icod}} \tab Icelandic cod retro
+#'   \code{\link{shake}} \tab Southern hake retro
 #' }
 #'
 #' @author Arni Magnusson and Anne Cooper, with contributions by Colin Millar.
