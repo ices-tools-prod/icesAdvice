@@ -1,6 +1,6 @@
 Package: icesAdvice
 Version: 1.4-1
-Date: 2018-02-14
+Date: 2018-03-23
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
              person("Anne", "Cooper", role=c("aut")),
