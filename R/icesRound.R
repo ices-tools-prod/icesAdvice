@@ -51,28 +51,21 @@
 
 icesRound <- function(x)
 {
-  if(length(x) > 1)
-  {
-    out <- sapply(x, icesRound)
-  }
-  else
-  {
-    x <- as.numeric(x)
-    onlySig <- sub("0\\.0*", "", abs(x))
-    firstSig <- substr(onlySig, 1, 1)
-    if(firstSig >= 2)
-    {
-      value <- signif(x, 2)
-      digits <- max(0, floor(-log10(abs(value))) + 2)
-    }
-    else
-    {
-      value <- signif(x, 3)
-      digits <- if(value == 0) 2
-                else max(0, floor(-log10(abs(value))-1e-10) + 3)
-      ## 1e-10 is a small constant to make sure 1->1.00, 0.1->0.100, etc.
-    }
-    out <- formatC(value, format="f", digits=digits)
-  }
+  # work on log base 10 scale
+  log10_x <- log10(abs(x))
+
+  # calculate significant figures
+  sf <- as.integer(log10_x %% 1 < log10(2)) + 2
+
+  # calculate number of decimal places needed
+  digits <- pmax(0, sf - 1 - floor(log10_x))
+
+  # special exception when x == 0
+  digits[x == 0] <- 2
+  sf[x == 0] <- 0
+
+  # format and return as noquote
+  fmt <- paste0("%.", digits, "f")
+  out <- sprintf(fmt, signif(x, sf))
   noquote(out)
 }
