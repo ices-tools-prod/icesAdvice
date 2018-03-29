@@ -3,6 +3,8 @@
 #' Round a value according to the ICES Advice Technical Guidelines.
 #'
 #' @param x the value(s) to round.
+#' @param percentage if TRUE values will always be returned wth a sign and
+#'                   be prefixed with \%, default is FALSE.
 #'
 #' @return
 #' Rounded value(s) as a \code{noquote} string object, retaining trailing zeros.
@@ -42,14 +44,18 @@
 #'
 #' ## Example from the ICES Technical Guidelines
 #' Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
-#'             0.02315, 1.168, 2.15678, 9.546, 10.546, 23.445, -1.482, -9.09,
-#'             0.51, 130.11, 584)
+#'             0.02315, 1.168, 2.15678, 9.546, 10.546, 23.445)
 #' Rounded <- icesRound(Actual)
+#' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
+#'
+#' ## Example rounding precentage changes in SSB or TAC
+#' Actual <- c(-1.482, -9.09, 0.51, 130.11, 584)
+#' Rounded <- icesRound(Actual, percentage = TRUE)
 #' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 #'
 #' @export
 
-icesRound <- function(x)
+icesRound <- function(x, percentage = FALSE)
 {
   # work on log base 10 scale
   log10_x <- log10(abs(x))
@@ -65,7 +71,11 @@ icesRound <- function(x)
   sf[x == 0] <- 0
 
   # format and return as noquote
-  fmt <- paste0("%.", digits, "f")
+  fmt <- if (percentage) {
+    paste0("%+.", digits, "f%%")
+  } else {
+    paste0("%.", digits, "f")
+  }
   out <- sprintf(fmt, signif(x, sf))
   noquote(out)
 }
