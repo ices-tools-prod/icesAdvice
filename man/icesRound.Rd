@@ -4,7 +4,7 @@
 \alias{icesRound}
 \title{ICES Rounding Method}
 \usage{
-icesRound(x, percent = FALSE, sign = percent)
+icesRound(x, percent = FALSE, sign = percent, na = "")
 }
 \arguments{
 \item{x}{the values to round.}
@@ -12,6 +12,8 @@ icesRound(x, percent = FALSE, sign = percent)
 \item{percent}{whether to format values with a percent suffix.}
 
 \item{sign}{whether to format values with a sign prefix.}
+
+\item{na}{what to return when x is \code{NA}.}
 }
 \value{
 Rounded values as a \code{noquote} string vector, retaining trailing zeros.
@@ -39,9 +41,11 @@ icesRound(0.2468)
 icesRound(1.0)
 as.numeric(icesRound(1.0))
 
-## Percent, sign
+## Percent, sign, NA
 icesRound(33.33, percent = TRUE)
 icesRound(33.33, sign = TRUE)
+icesRound(c(1, NA, 3))
+icesRound(c(1, NA, 3), na = NA)
 
 ## Example from the ICES Technical Guidelines
 Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,

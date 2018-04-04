@@ -5,6 +5,7 @@
 #' @param x the values to round.
 #' @param percent whether to format values with a percent suffix.
 #' @param sign whether to format values with a sign prefix.
+#' @param na what to return when x is \code{NA}.
 #'
 #' @return
 #' Rounded values as a \code{noquote} string vector, retaining trailing zeros.
@@ -42,9 +43,11 @@
 #' icesRound(1.0)
 #' as.numeric(icesRound(1.0))
 #'
-#' ## Percent, sign
+#' ## Percent, sign, NA
 #' icesRound(33.33, percent = TRUE)
 #' icesRound(33.33, sign = TRUE)
+#' icesRound(c(1, NA, 3))
+#' icesRound(c(1, NA, 3), na = NA)
 #'
 #' ## Example from the ICES Technical Guidelines
 #' Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
@@ -59,7 +62,7 @@
 #'
 #' @export
 
-icesRound <- function(x, percent = FALSE, sign = percent)
+icesRound <- function(x, percent = FALSE, sign = percent, na = "")
 {
   # work on log base 10 scale
   log10_x <- log10(abs(x))
@@ -74,13 +77,15 @@ icesRound <- function(x, percent = FALSE, sign = percent)
   digits[x == 0] <- 2
   sf[x == 0] <- 0
 
-  # special exception when x is NA
+  # suppress error when x is NA
   digits[is.na(x)] <- 0
 
-  # format and return as noquote
+  # format values
   fmt <- paste0(if (sign) "%+." else "%.",
                 digits,
                 if (percent) "f%%" else "f")
   out <- sprintf(fmt, signif(x, sf))
+  out[is.na(x)] <- na
+
   noquote(out)
 }
