@@ -4,14 +4,13 @@
 #'
 #' @title Southern Hake Retro
 #'
-#' @description
-#' Retrospective estimates of Southern hake fishing mortality.
+#' @description Retrospective estimates of Southern hake fishing mortality.
 #'
 #' @usage
 #' shake
 #'
 #' @format
-#' Data frame containing 8 columns:
+#' Data frame containing 6 columns:
 #' \tabular{ll}{
 #'   \code{base} \tab base model estimates\cr
 #'   \code{-1}   \tab 1st retro peel\cr
@@ -26,9 +25,9 @@
 #' on quantifying and reporting retrospective bias.
 #'
 #' @source
-#' ICES. 2018. Advice Technical Guidelines: Retrospective bias in assessment.
-#' \emph{Draft document version 14 (2018-01-19), available at the ACOM Meetings
-#' area on the ICES Sharepoint.}
+#' ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
+#' assessment. \emph{Draft document version 7 (2018-04-03), available at the
+#' Expert Groups area on the ICES Sharepoint.}
 #'
 #' @seealso
 #' \code{\link{mohn}} calculates Mohn's rho.

@@ -59,9 +59,9 @@ evaluating performance of stock projections in New England groundfish stocks.
 \emph{Canadian Journal of Fisheries and Aquatic Sciences} \bold{73},
 935--950.
 
-ICES. 2018. Advice Technical Guidelines: Retrospective bias in assessment.
-\emph{Draft document version 14 (2018-01-19), available at the ACOM Meetings
-area on the ICES Sharepoint.}
+ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
+assessment. \emph{Draft document version 7 (2018-04-03), available at the
+Expert Groups area on the ICES Sharepoint.}
 
 Mohn, R. (1999) The retrospective problem in sequential population analysis:
 An investigation using cod fishery and simulated data. \emph{ICES Journal of
