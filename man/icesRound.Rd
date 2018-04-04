@@ -9,8 +9,8 @@ icesRound(x, percentage = FALSE)
 \arguments{
 \item{x}{the value(s) to round.}
 
-\item{percentage}{if TRUE values will always be returned wth a sign and
-be prefixed with \%, default is FALSE.}
+\item{percentage}{if TRUE values will always be returned with a sign and
+\% suffix, default is FALSE.}
 }
 \value{
 Rounded value(s) as a \code{noquote} string object, retaining trailing zeros.
@@ -44,7 +44,7 @@ Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
 Rounded <- icesRound(Actual)
 print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 
-## Example rounding precentage changes in SSB or TAC
+## Example rounding percentage changes in SSB or TAC
 Actual <- c(-1.482, -9.09, 0.51, 130.11, 584)
 Rounded <- icesRound(Actual, percentage = TRUE)
 print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
