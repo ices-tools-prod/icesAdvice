@@ -73,6 +73,9 @@ icesRound <- function(x, percent = FALSE)
   digits[x == 0] <- 2
   sf[x == 0] <- 0
 
+  # special exception when x is NA
+  digits[is.na(x)] <- 0
+
   # format and return as noquote
   fmt <- if (percent) {
     paste0("%+.", digits, "f%%")
