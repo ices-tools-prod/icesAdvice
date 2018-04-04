@@ -19,7 +19,7 @@
 #' }
 #' As indicated in the ICES (2017) technical guidelines, this rounding method
 #' should not be applied to biomass, catch, or number of individuals. For those
-#' quantities, use the normal \code{round} function instead.
+#' quantities, use the normal \code{\link{round}} function instead.
 #'
 #' @author Colin Millar and Arni Magnusson.
 #'
