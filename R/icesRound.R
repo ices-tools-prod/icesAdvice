@@ -1,13 +1,13 @@
 #' ICES Rounding Method
 #'
-#' Round a value according to the ICES Advice Technical Guidelines.
+#' Round values according to the ICES Advice Technical Guidelines.
 #'
-#' @param x the value(s) to round.
-#' @param percent if TRUE values will always be returned with a sign and
-#'                   \% suffix, default is FALSE.
+#' @param x the values to round.
+#' @param percent whether to format values with a sign prefix and percent
+#'        suffix.
 #'
 #' @return
-#' Rounded value(s) as a \code{noquote} string object, retaining trailing zeros.
+#' Rounded values as a \code{noquote} string vector, retaining trailing zeros.
 #'
 #' @note
 #' This function implements the following ICES rounding method:
@@ -21,12 +21,12 @@
 #' should not be applied to biomass, catch, or number of individuals. For those
 #' quantities, use the normal \code{round} function instead.
 #'
-#' @author Arni Magnusson with a contribution by Colin Millar.
+#' @author Colin Millar and Arni Magnusson.
 #'
 #' @references
 #' ICES (2017) Rounding rules to be applied in ICES advice.
-#' \href{https://doi.org/10.17895/ices.pub.3038}{\emph{ICES
-#' Advice Technical Guidelines 16.5.3}}.
+#' \href{https://doi.org/10.17895/ices.pub.3038}{\emph{ICES Advice Technical
+#' Guidelines 16.5.3}}.
 #'
 #' @seealso
 #' \code{\link{signif}} rounds values to a specified number of significant
@@ -46,12 +46,12 @@
 #' Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
 #'             0.02315, 1.168, 2.15678)
 #' Rounded <- icesRound(Actual)
-#' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
+#' print(data.frame(Actual = as.character(Actual), Rounded), row.names = FALSE)
 #'
 #' ## Continued example from Guidelines, now rounding percentages
 #' Actual <- c(9.546, 10.546, 23.445, -1.482, -9.09, 0.51, 130.11, 584)
 #' Rounded <- icesRound(Actual, percent = TRUE)
-#' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
+#' print(data.frame(Actual = as.character(Actual), Rounded), row.names = FALSE)
 #'
 #' @export
 
