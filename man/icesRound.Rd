@@ -4,13 +4,14 @@
 \alias{icesRound}
 \title{ICES Rounding Method}
 \usage{
-icesRound(x, percent = FALSE)
+icesRound(x, percent = FALSE, sign = percent)
 }
 \arguments{
 \item{x}{the values to round.}
 
-\item{percent}{whether to format values with a sign prefix and percent
-suffix.}
+\item{percent}{whether to format values with a percent suffix.}
+
+\item{sign}{whether to format values with a sign prefix.}
 }
 \value{
 Rounded values as a \code{noquote} string vector, retaining trailing zeros.
@@ -38,8 +39,9 @@ icesRound(0.2468)
 icesRound(1.0)
 as.numeric(icesRound(1.0))
 
-## Add sign and percent
+## Percent, sign
 icesRound(33.33, percent = TRUE)
+icesRound(33.33, sign = TRUE)
 
 ## Example from the ICES Technical Guidelines
 Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
