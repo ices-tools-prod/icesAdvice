@@ -38,6 +38,9 @@ icesRound(0.2468)
 icesRound(1.0)
 as.numeric(icesRound(1.0))
 
+## Add sign and percent
+icesRound(33.33, percent = TRUE)
+
 ## Example from the ICES Technical Guidelines
 Actual <- c(0.35776, 0.34665, 0.202, 0.12665, 0.001567, 0.002567, 0.013415,
             0.02315, 1.168, 2.15678)
