@@ -4,12 +4,12 @@
 \alias{icesRound}
 \title{ICES Rounding Method}
 \usage{
-icesRound(x, percentage = FALSE)
+icesRound(x, percent = FALSE)
 }
 \arguments{
 \item{x}{the value(s) to round.}
 
-\item{percentage}{if TRUE values will always be returned with a sign and
+\item{percent}{if TRUE values will always be returned with a sign and
 \% suffix, default is FALSE.}
 }
 \value{
@@ -46,7 +46,7 @@ print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 
 ## Example rounding percentage changes in SSB or TAC
 Actual <- c(-1.482, -9.09, 0.51, 130.11, 584)
-Rounded <- icesRound(Actual, percentage = TRUE)
+Rounded <- icesRound(Actual, percent = TRUE)
 print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 
 }

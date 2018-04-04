@@ -3,7 +3,7 @@
 #' Round a value according to the ICES Advice Technical Guidelines.
 #'
 #' @param x the value(s) to round.
-#' @param percentage if TRUE values will always be returned with a sign and
+#' @param percent if TRUE values will always be returned with a sign and
 #'                   \% suffix, default is FALSE.
 #'
 #' @return
@@ -50,12 +50,12 @@
 #'
 #' ## Example rounding percentage changes in SSB or TAC
 #' Actual <- c(-1.482, -9.09, 0.51, 130.11, 584)
-#' Rounded <- icesRound(Actual, percentage = TRUE)
+#' Rounded <- icesRound(Actual, percent = TRUE)
 #' print(data.frame(Actual=as.character(Actual), Rounded), row.names=FALSE)
 #'
 #' @export
 
-icesRound <- function(x, percentage = FALSE)
+icesRound <- function(x, percent = FALSE)
 {
   # work on log base 10 scale
   log10_x <- log10(abs(x))
@@ -71,7 +71,7 @@ icesRound <- function(x, percentage = FALSE)
   sf[x == 0] <- 0
 
   # format and return as noquote
-  fmt <- if (percentage) {
+  fmt <- if (percent) {
     paste0("%+.", digits, "f%%")
   } else {
     paste0("%.", digits, "f")
