@@ -4,19 +4,20 @@
 \alias{DLS3.2}
 \title{DLS Method 3.2}
 \usage{
-DLS3.2(lastadvice, index, buffer = FALSE, i1 = head(tail(index, 5), 3),
-  i2 = tail(index, 2))
+DLS3.2(lastadvice, index, len = c(3, 2), buffer = FALSE, i1, i2)
 }
 \arguments{
 \item{lastadvice}{last catch advice given for this stock.}
 
-\item{index}{survey index vector.}
+\item{index}{stock size index.}
+
+\item{len}{two integers, indicating the desired lengths of reference vectors.}
 
 \item{buffer}{whether to apply a -20\% precautionary buffer.}
 
-\item{i1}{survey index values reflecting previous stock size.}
+\item{i1}{included for backward compatibility, use \code{len} instead.}
 
-\item{i2}{survey index values reflecting current stock size.}
+\item{i2}{included for backward compatibility, use \code{len} instead.}
 }
 \value{
 A list containing the resulting \code{advice} and other elements showing
@@ -27,21 +28,27 @@ Apply ICES method 3.2 to calculate catch advice for data-limited stocks
 (DLS).
 }
 \details{
-In the simplest case, only \code{lastadvice} and \code{index} are required.
-The reference vectors \code{i1} and \code{i2} will then be evaluated
-automatically as
+This function compares the average values of two reference vectors \code{i1}
+and \code{i2}. In the simplest case, only \code{lastadvice} and \code{index}
+are required to calculate the advice.
+
+The default value of \code{len = c(3, 2)} produces vectors \code{i1} and
+\code{i2} of lengths 3 and 2,
 
 \verb{  }i1 = (I[n-4], I[n-3], I[n-2])
 
 \verb{  }i2 = (I[n-1], I[n])
 
-where I is a survey index vector of length n.
+where I is a stock size index of length n.
 
-To handle unusual cases, the user can specify \code{i1} and \code{i2}
-manually, in which case the \code{index} vector is ignored. This can be
-useful to specify reference periods that are different from the default, or
-to work around \code{NA} values in the survey index. Missing values are not
-permitted in the reference vectors \code{i1} and \code{i2}.
+Other vector lengths can be used, such as \code{len = c(5, 2)} to get
+
+\verb{  }i1 = (I[n-6], I[n-5], I[n-4], I[n-3], I[n-2])
+
+\verb{  }i2 = (I[n-1], I[n])
+
+Finally, a -20\% precautionary buffer can be applied at the end of all
+calculations.
 
 See the ICES (2012) guidance report for details.
 }
@@ -52,10 +59,10 @@ survey <- data.frame(year=2001:2010, randu[1:10,])
 DLS3.2(1000, survey$x)
 
 DLS3.2(1000, survey$y)
-DLS3.2(1000, survey$y, buffer=TRUE)
+DLS3.2(1000, survey$y, len=c(5,2))
 
 DLS3.2(1000, survey$z)
-DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
+DLS3.2(1000, survey$z, buffer=TRUE)
 
 # Plot
 output <- DLS3.2(1000, survey$y)

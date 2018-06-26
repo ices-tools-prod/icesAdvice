@@ -4,27 +4,34 @@
 #' (DLS).
 #'
 #' @param lastadvice last catch advice given for this stock.
-#' @param index survey index vector.
+#' @param index stock size index.
+#' @param len two integers, indicating the desired lengths of reference vectors.
 #' @param buffer whether to apply a -20\% precautionary buffer.
-#' @param i1 survey index values reflecting previous stock size.
-#' @param i2 survey index values reflecting current stock size.
+#' @param i1 included for backward compatibility, use \code{len} instead.
+#' @param i2 included for backward compatibility, use \code{len} instead.
 #'
 #' @details
-#' In the simplest case, only \code{lastadvice} and \code{index} are required.
-#' The reference vectors \code{i1} and \code{i2} will then be evaluated
-#' automatically as
+#' This function compares the average values of two reference vectors \code{i1}
+#' and \code{i2}. In the simplest case, only \code{lastadvice} and \code{index}
+#' are required to calculate the advice.
+#'
+#' The default value of \code{len = c(3, 2)} produces vectors \code{i1} and
+#' \code{i2} of lengths 3 and 2,
 #'
 #' \verb{  }i1 = (I[n-4], I[n-3], I[n-2])
 #'
 #' \verb{  }i2 = (I[n-1], I[n])
 #'
-#' where I is a survey index vector of length n.
+#' where I is a stock size index of length n.
 #'
-#' To handle unusual cases, the user can specify \code{i1} and \code{i2}
-#' manually, in which case the \code{index} vector is ignored. This can be
-#' useful to specify reference periods that are different from the default, or
-#' to work around \code{NA} values in the survey index. Missing values are not
-#' permitted in the reference vectors \code{i1} and \code{i2}.
+#' Other vector lengths can be used, such as \code{len = c(5, 2)} to get
+#'
+#' \verb{  }i1 = (I[n-6], I[n-5], I[n-4], I[n-3], I[n-2])
+#'
+#' \verb{  }i2 = (I[n-1], I[n])
+#'
+#' Finally, a -20\% precautionary buffer can be applied at the end of all
+#' calculations.
 #'
 #' See the ICES (2012) guidance report for details.
 #'
@@ -50,10 +57,10 @@
 #' DLS3.2(1000, survey$x)
 #'
 #' DLS3.2(1000, survey$y)
-#' DLS3.2(1000, survey$y, buffer=TRUE)
+#' DLS3.2(1000, survey$y, len=c(5,2))
 #'
 #' DLS3.2(1000, survey$z)
-#' DLS3.2(1000, i1=survey$z[6:9], i2=survey$z[10])
+#' DLS3.2(1000, survey$z, buffer=TRUE)
 #'
 #' # Plot
 #' output <- DLS3.2(1000, survey$y)
@@ -61,13 +68,23 @@
 #' segments(2006, output$i1bar, 2008, lwd=2)
 #' segments(2009, output$i2bar, 2010, lwd=2)
 #'
-#' @importFrom utils head tail
-#'
 #' @export
 
-DLS3.2 <- function(lastadvice, index, buffer=FALSE,
-                   i1=head(tail(index,5),3), i2=tail(index,2))
+DLS3.2 <- function(lastadvice, index, len=c(3,2), buffer=FALSE, i1, i2)
 {
+  n <- length(index)
+  a <- len[1]
+  b <- len[2]
+
+  if(missing(i1))
+    i1 <- index[(n-a-b+1):(n-b)]
+  ## else
+  ##   warning("'i1' argument is deprecated - use 'len' instead.")
+  if(missing(i2))
+    i2 <- index[(n-b+1):n]
+  ## else
+  ##   warning("'i2' argument is deprecated - use 'len' instead.")
+
   change <- mean(i2) / mean(i1)
   multiplier <- max(0.8, min(1.2, change))
   if(buffer)
