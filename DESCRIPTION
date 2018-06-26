@@ -5,7 +5,7 @@ Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
              person("Colin", "Millar", role="aut"),
              person("Anne", "Cooper", role="aut"))
-Imports: graphics, stats, utils
+Imports: graphics, stats
 LazyData: yes
 Description: Functions that are related to the ICES advisory process.
 License: GPL (>= 2)
