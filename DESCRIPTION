@@ -10,4 +10,5 @@ LazyData: yes
 Description: Functions that are related to the ICES advisory process.
 License: GPL (>= 2)
 URL: http://ices.dk/community/advisory-process/
+Encoding: UTF-8
 RoxygenNote: 6.1.0
