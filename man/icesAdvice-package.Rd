@@ -9,7 +9,7 @@
 Functions that are related to the ICES advisory process.
 }
 \details{
-\emph{Evaluate ICES advice:}
+\emph{Calculate ICES advice:}
 \tabular{ll}{
   \code{\link{DLS3.2}}    \tab DLS method 3.2\cr
   \code{\link{icesRound}} \tab rounding method
@@ -27,6 +27,11 @@ Functions that are related to the ICES advisory process.
 \emph{Retrospective diagnostics:}
 \tabular{ll}{
   \code{\link{mohn}} \tab Mohn's rho
+}
+\emph{Read and write files:}
+\tabular{ll}{
+  \code{\link{read.dls}}  \tab read \code{DLS3.2} results from file\cr
+  \code{\link{write.dls}} \tab write \code{DLS3.2} results to file
 }
 \emph{Example tables:}
 \tabular{ll}{
