@@ -27,7 +27,7 @@ The ICES (2017) technical guidelines define Fpa as:
 \deqn{F_\mathrm{pa} = F_\mathrm{lim} \exp(-1.645\sigma_F)}{
       Fpa = Flim * exp(-1.645*sigmaF)}
 
-The \code{Fpa} function can also be used to evaluate reference points based
+The \code{Fpa} function can also be used to calculate reference points based
 on harvest rate: Hpa from Hlim and sigmaH.
 }
 \examples{
