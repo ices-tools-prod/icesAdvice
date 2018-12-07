@@ -6,7 +6,9 @@
 \alias{icesAdvice}
 \title{Functions Related to ICES Advice}
 \description{
-Functions that are related to the ICES advisory process.
+A collection of functions that facilitate computational steps related to
+advice for fisheries management, according to ICES guidelines. These include
+methods for calculating reference points and model diagnostics.
 }
 \details{
 \emph{Calculate ICES advice:}

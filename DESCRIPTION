@@ -9,7 +9,7 @@ Imports: graphics, stats
 LazyData: yes
 Description: A collection of functions that facilitate computational steps
   related to advice for fisheries management, according to ICES guidelines.
-  These include methods for reference points and model diagnostics.
+  These include methods for calculating reference points and model diagnostics.
 License: GPL (>= 2)
 URL: http://ices.dk/community/advisory-process/
 Encoding: UTF-8
