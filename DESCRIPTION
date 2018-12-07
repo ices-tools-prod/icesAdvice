@@ -1,6 +1,6 @@
 Package: icesAdvice
-Version: 1.5-0
-Date: 2018-11-23
+Version: 2.0-0
+Date: 2018-12-07
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
              person("Colin", "Millar", role="aut"),
@@ -9,7 +9,7 @@ Imports: graphics, stats
 LazyData: yes
 Description: A collection of functions that facilitate computational steps
   related to advice for fisheries management, according to ICES guidelines.
-  These include methods for reference points and diagnostics.
+  These include methods for reference points and model diagnostics.
 License: GPL (>= 2)
 URL: http://ices.dk/community/advisory-process/
 Encoding: UTF-8
