@@ -78,6 +78,9 @@ data-limited stocks in 2012 in its 2012 advice.
 CM 2012/ACOM:68}}.
 }
 \seealso{
+\code{\link{read.dls}} and \code{\link{write.dls}} read and write DLS3.2
+results to file.
+
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
 \author{
