@@ -23,8 +23,11 @@ Calculate the implicit sigma that was used to construct a confidence
 interval.
 }
 \note{
-Useful for reviewing PA reference points, when the report provides a CI but
-not the value of sigma.
+The purpose of PA reference points is to apply a precautionary approach in
+fisheries management.
+
+This function is useful for reviewing PA reference points, when the report
+provides a CI but not the value of sigma.
 }
 \examples{
 sigmaCI(100, 200)

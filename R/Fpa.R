@@ -9,6 +9,9 @@
 #' @return Value of Fpa.
 #'
 #' @note
+#' The purpose of PA reference points is to apply a precautionary approach in
+#' fisheries management.
+#'
 #' By comparing the current F to Fpa, one can answer the question: are we at
 #' least 95\% sure that F is below Flim, given the estimation uncertainty?
 #'

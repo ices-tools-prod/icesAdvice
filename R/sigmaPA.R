@@ -13,8 +13,11 @@
 #' @return Implicit value of sigma.
 #'
 #' @note
-#' Useful for reviewing PA reference points, when the advice sheet provides the
-#' value of Xlim and Xpa but not the value of sigma.
+#' The purpose of PA reference points is to apply a precautionary approach in
+#' fisheries management.
+#'
+#' This function is useful for reviewing PA reference points, when the advice
+#' sheet provides the value of Xlim and Xpa but not the value of sigma.
 #'
 #' The inference is based on the following relationships:
 #'
