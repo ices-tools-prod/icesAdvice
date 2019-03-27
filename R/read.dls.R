@@ -27,6 +27,8 @@
 #' file.remove("dls.txt")
 #' }
 #'
+#' @importFrom utils type.convert
+#'
 #' @export
 
 read.dls <- function(file)
@@ -34,15 +36,14 @@ read.dls <- function(file)
   x <- readLines(file)
   x <- x[x != ""]
   out <- list()
+
   while(length(x) > 0)
   {
     value <- strsplit(x[2], " ")[[1]]
-    if(value[1] %in% c("TRUE","FALSE"))
-      value <- as.logical(value)
-    if(substring(value[1],1,1) %in% 0:9)
-      value <- as.numeric(value)
+    value <- type.convert(value, as.is=TRUE)
     out[[x[1]]] <- value
     x <- x[-(1:2)]
   }
+
   out
 }

@@ -1,11 +1,11 @@
 Package: icesAdvice
-Version: 2.0-0
-Date: 2018-12-07
+Version: 2.0-1
+Date: 2019-03-27
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
              person("Colin", "Millar", role="aut"),
              person("Anne", "Cooper", role="aut"))
-Imports: graphics, stats
+Imports: graphics, stats, utils
 LazyData: yes
 Description: A collection of functions that facilitate computational steps
   related to advice for fisheries management, according to ICES guidelines.
