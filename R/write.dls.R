@@ -30,23 +30,18 @@
 
 write.dls <- function(x, file="")
 {
-  ## Utility function borrowed from icesAdvice
-  unix2dos <- function(file)
-  {
-    txt <- readLines(file)
-    con <- file(file, open="wb")
-    writeLines(txt, con, sep="\r\n")
-    close(con)
-  }
   nn <- names(x)
+
   write(nn[1], file)
   write(x[[1]], file, append=TRUE)
+
   for(i in 2:length(x))
   {
     write("", file, append=TRUE)
     write(nn[i], file, append=TRUE)
     write(x[[i]], file, ncolumns=100, append=TRUE)
   }
+
   if(file != "")
     unix2dos(file)
 }
