@@ -52,6 +52,10 @@ mohn(shake, plot=TRUE)
 mohn(shake, peels=3, plot=TRUE, col="black", ylim=0:1, yaxs="i")
 lines(as.numeric(rownames(shake)), shake$base, lwd=3)
 
+## Plot last 10 years
+x <- rbind(matrix(1,28,6,dimnames=list(1981:2008,names(shake))), shake)
+mohn(tail(x, 10), plot=TRUE, lwd=2, main="main")
+
 }
 \references{
 Brooks, E. N. and Legault, C. M. (2016) Retrospective forecasting ---
