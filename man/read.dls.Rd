@@ -36,3 +36,6 @@ stocks (DLS).
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
+\author{
+Arni Magnusson.
+}

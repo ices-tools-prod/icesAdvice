@@ -16,6 +16,8 @@
 #'
 #' \code{\link{icesAdvice-package}} gives an overview of the package.
 #'
+#' @author Arni Magnusson.
+#'
 #' @examples
 #' \dontrun{
 #' survey <- data.frame(year=2001:2010, randu[1:10,])
