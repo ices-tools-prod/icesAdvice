@@ -9,6 +9,10 @@
 #' @param details whether to return the intermediate calculations of relative
 #'        bias.
 #' @param plot whether to plot the retrospective trajectories.
+#' @param main if \code{plot = TRUE}, add a title to the plot. \default{NULL}
+#' @param plot.cut Give the year from which you want to display the plot.
+#' \default{rownames(x)[1]}  
+#' @param lwd line width. \default{NULL}  
 #' @param \dots passed to \code{matplot} and \code{points}.
 #'
 #' @details
@@ -61,16 +65,15 @@
 #' mohn(shake, peels=3, plot=TRUE, col="black", ylim=0:1, yaxs="i")
 #' lines(as.numeric(rownames(shake)), shake$base, lwd=3)
 #'
-#' ## Plot last 10 years
-#' x <- rbind(matrix(1,28,6,dimnames=list(1981:2008,names(shake))), shake)
-#' mohn(tail(x, 10), plot=TRUE, lwd=2, main="main")
+#' ## Plot since 2011, calculate mohnrho index over the entire time series.
+#' mohn(shake, peels=3, plot=TRUE, lwd=2, main="main", plot.cut = "2011")
 #'
 #' @importFrom graphics matplot points
 #' @importFrom stats na.omit
 #'
 #' @export
 
-mohn <- function(x, peels=5, details=FALSE, plot=FALSE, ...)
+mohn <- function(x, peels=5, details=FALSE, plot=FALSE, main = NULL, plot.cut = rownames(x)[1], lwd = NULL, ...)
 {
   ## 1  Check dims
   if(is.null(peels))
@@ -93,9 +96,14 @@ mohn <- function(x, peels=5, details=FALSE, plot=FALSE, ...)
   ## 4  Plot
   if(plot)
   {
-    matplot(as.numeric(rownames(x)), x, type="l", lty=1, ann=FALSE, ...)
+    x <- x[which(rownames(x) >= plot.cut),]
+    if(is.null(lwd)){
+      matplot(as.numeric(rownames(x)), x, type="l", lty=1, ann=FALSE, ylim = c(0, max(x, na.rm = T)), ...)
+    } else {
+      matplot(as.numeric(rownames(x)), x, type="l", lty=1, ann=FALSE, lwd = lwd, ylim = c(0, max(x, na.rm = T)), ...)
+    }
     points(as.numeric(rownames(compare)), compare$retro, ...)
+    if(!is.null(main)) title(paste(main))
   }
-
   out
 }
