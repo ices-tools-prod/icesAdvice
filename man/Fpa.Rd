@@ -39,9 +39,8 @@ Fpa(0.90, 0.15)
 }
 \references{
 ICES (2017) ICES fisheries management reference points for category 1 and 2
-stocks.
-\href{http://ices.dk/sites/pub/Publication\%20Reports/Advice/2017/2017/12.04.03.01_Reference_points_for_category_1_and_2.pdf}{\emph{ICES
-Advice Technical Guidelines 12.4.3.1}}.
+stocks. \href{https://doi.org/10.17895/ices.pub.3036}{\emph{ICES Advice
+Technical Guidelines 12.4.3.1}}.
 }
 \seealso{
 \code{\link{Bpa}} calculates that reference point from Blim and sigmaB.
