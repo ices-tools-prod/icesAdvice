@@ -23,7 +23,6 @@
 #'
 #' @note
 #' Relative bias is defined as
-#'
 #' \deqn{b_i=\frac{\hat\theta^{R_i}_{T\!-i}\,-\,\hat\theta_{T\!-i}}{\hat\theta_{T\!-i}}}{relbias
 #' = (retro - base) / base}
 #' and Mohn's rho is the average relative bias:
@@ -32,7 +31,7 @@
 #' See Mohn (1999), Brooks and Legault (2016), ICES (2018), and
 #' \code{mohn(shake, details=TRUE)} for details.
 #'
-#' @author Arni Magnusson.
+#' @author Arni Magnusson, with a contribution from Ruben Verkempynck.
 #'
 #' @references
 #' Brooks, E. N. and Legault, C. M. (2016) Retrospective forecasting ---
@@ -65,7 +64,7 @@
 #' x <- rbind(matrix(1,28,6,dimnames=list(1981:2008,names(shake))), shake)
 #' mohn(tail(x, 10), plot=TRUE, lwd=2, main="main")
 #'
-#' @importFrom graphics matplot points
+#' @importFrom graphics matplot points title
 #' @importFrom stats na.omit
 #'
 #' @export
@@ -94,6 +93,7 @@ mohn <- function(x, peels=5, details=FALSE, plot=FALSE, ...)
   if(plot)
   {
     matplot(as.numeric(rownames(x)), x, type="l", lty=1, ann=FALSE, ...)
+    title(...)  # suppress matplot labels, but allow user to pass main/xlab/ylab
     points(as.numeric(rownames(compare)), compare$retro, ...)
   }
 

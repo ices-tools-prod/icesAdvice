@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------
-icesAdvice 2.0-1 (2019-04-25)
+icesAdvice 2.0-1 (2019-06-23)
 --------------------------------------------------------------------------------
-o Extended mohn() example.
+o Improved mohn() to support 'main', 'xlab', and 'ylab'. Code contributed by
+  Ruben Verkempynck.
 
 
 

@@ -35,7 +35,6 @@ the calculation of Mohn's rho. To produce a fully formatted plot, bypass the
 }
 \note{
 Relative bias is defined as
-
 \deqn{b_i=\frac{\hat\theta^{R_i}_{T\!-i}\,-\,\hat\theta_{T\!-i}}{\hat\theta_{T\!-i}}}{relbias
 = (retro - base) / base}
 and Mohn's rho is the average relative bias:
@@ -77,5 +76,5 @@ Marine Science} \bold{56}, 473--488.
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
 \author{
-Arni Magnusson.
+Arni Magnusson, with a contribution from Ruben Verkempynck.
 }
