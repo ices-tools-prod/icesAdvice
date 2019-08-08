@@ -59,7 +59,7 @@ mohn(tail(x, 10), plot=TRUE, lwd=2, main="main")
 \references{
 Brooks, E. N. and Legault, C. M. (2016) Retrospective forecasting ---
 evaluating performance of stock projections in New England groundfish stocks.
-\emph{Canadian Journal of Fisheries and Aquatic Sciences} \bold{73},
+\emph{Canadian Journal of Fisheries and Aquatic Sciences}, \bold{73},
 935--950.
 
 ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
@@ -68,7 +68,7 @@ Expert Groups area on the ICES Sharepoint.}
 
 Mohn, R. (1999) The retrospective problem in sequential population analysis:
 An investigation using cod fishery and simulated data. \emph{ICES Journal of
-Marine Science} \bold{56}, 473--488.
+Marine Science}, \bold{56}, 473--488.
 }
 \seealso{
 \code{\link{shake}} is a retrospective example table.
