@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
-icesAdvice 2.0-1 (2019-06-23)
+icesAdvice 2.0.1 (2020-11-20)
 --------------------------------------------------------------------------------
 o Improved mohn() to support 'main', 'xlab', and 'ylab'. Code contributed by
-  Ruben Verkempynck.
+  Ruben Verkempynck and Raphael Girardin.
 
 
 

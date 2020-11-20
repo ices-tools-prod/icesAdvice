@@ -1,11 +1,12 @@
 Package: icesAdvice
-Version: 2.0-1
-Date: 2019-06-23
+Version: 2.0.1
+Date: 2020-11-20
 Title: Functions Related to ICES Advice
-Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@ices.dk"),
-             person("Colin", "Millar", role="aut"),
+Authors@R: c(person("Arni", "Magnusson", role="aut"),
+             person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk"),
              person("Anne", "Cooper", role="aut"),
-             person("Ruben", "Verkempynck", role="ctb"))
+             person("Ruben", "Verkempynck", role="ctb"),
+             person("Raphael", "Girardin", role="ctb"))
 Imports: graphics, stats, utils
 LazyData: yes
 Description: A collection of functions that facilitate computational steps
@@ -14,4 +15,4 @@ Description: A collection of functions that facilitate computational steps
 License: GPL (>= 2)
 URL: http://ices.dk/community/advisory-process/
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
