@@ -4,7 +4,8 @@
 \name{shake}
 \alias{shake}
 \title{Southern Hake Retro}
-\format{Data frame containing 6 columns:
+\format{
+Data frame containing 6 columns:
 \tabular{ll}{
   \code{base} \tab base model estimates\cr
   \code{-1}   \tab 1st retro peel\cr
@@ -12,7 +13,8 @@
   \code{-3}   \tab 3rd retro peel\cr
   \code{-4}   \tab 4th retro peel\cr
   \code{-5}   \tab 5th retro peel
-}}
+}
+}
 \source{
 ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
 assessment. \emph{Draft document version 7 (2018-04-03), available at the
