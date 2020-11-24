@@ -37,6 +37,7 @@ methods for calculating reference points and model diagnostics.
 }
 \emph{Example tables:}
 \tabular{ll}{
+  \code{\link{gss}}   \tab Greater silver smelt catch at age\cr
   \code{\link{shake}} \tab Southern hake retro
 }
 }
