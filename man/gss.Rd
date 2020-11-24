@@ -30,7 +30,10 @@ Greater Silver Smelt
 }
 \examples{
 gss
+agesFbar(gss)
 }
 \seealso{
+\code{\link{agesFbar}} calculates a suitable age range for Fbar.
+
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }

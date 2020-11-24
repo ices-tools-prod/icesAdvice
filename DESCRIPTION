@@ -1,5 +1,5 @@
 Package: icesAdvice
-Version: 2.0.1
+Version: 2.1.0
 Date: 2020-11-24
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role="aut"),

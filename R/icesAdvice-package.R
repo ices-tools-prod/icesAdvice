@@ -17,19 +17,17 @@
 #'   \code{\link{DLS3.2}}    \tab DLS method 3.2\cr
 #'   \code{\link{icesRound}} \tab rounding method
 #' }
-#' \emph{Calculate PA reference points:}
+#' \emph{Calculate PA reference points and sigma:}
 #' \tabular{ll}{
 #'   \code{\link{Bpa}} \tab from Blim\cr
-#'   \code{\link{Fpa}} \tab from Flim
-#' }
-#' \emph{Calculate sigma:}
-#' \tabular{ll}{
+#'   \code{\link{Fpa}} \tab from Flim\cr
 #'   \code{\link{sigmaCI}} \tab from confidence interval\cr
 #'   \code{\link{sigmaPA}} \tab from PA reference points
 #' }
-#' \emph{Retrospective diagnostics:}
+#' \emph{Other calculations:}
 #' \tabular{ll}{
-#'   \code{\link{mohn}} \tab Mohn's rho
+#'   \code{\link{agesFbar}} \tab suitable age range for Fbar\cr
+#'   \code{\link{mohn}}     \tab Mohn's rho retrospective diagnosis
 #' }
 #' \emph{Read and write files:}
 #' \tabular{ll}{

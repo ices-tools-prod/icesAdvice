@@ -1,7 +1,10 @@
 --------------------------------------------------------------------------------
-icesAdvice 2.0.1 (2020-11-24)
+icesAdvice 2.1.0 (2020-11-24)
 --------------------------------------------------------------------------------
-o Added example data frame gss.
+o Added function agesFbar() to calculate a suitable age range for Fbar.
+
+o Added example data frame gss to demonstrate the calculation of an age range
+  for Fbar.
 
 o Improved mohn() to support 'main', 'xlab', and 'ylab'. Code contributed by
   Ruben Verkempynck and Raphael Girardin.

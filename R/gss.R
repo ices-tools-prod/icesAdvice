@@ -29,9 +29,12 @@
 #' \url{https://stockassessment.org/datadisk/stockassessment/userdirs/user3/ARU.27.5b6a_WKGSS2020_FINAL/data/cn.dat}
 #'
 #' @seealso
+#' \code{\link{agesFbar}} calculates a suitable age range for Fbar.
+#'
 #' \code{\link{icesAdvice-package}} gives an overview of the package.
 #'
 #' @examples
 #' gss
+#' agesFbar(gss)
 
 NA
