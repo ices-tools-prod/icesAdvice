@@ -41,7 +41,7 @@ methods for calculating reference points and model diagnostics.
 }
 \references{
 ICES advisory process:
-\url{http://ices.dk/community/advisory-process/}.
+\url{https://ices.dk/about-ICES/how-we-work/Pages/Advisory_process.aspx}
 }
 \author{
 Arni Magnusson, Colin Millar, and Anne Cooper.

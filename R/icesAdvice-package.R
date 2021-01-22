@@ -44,6 +44,5 @@
 #'
 #' @references
 #' ICES advisory process:
-#' \url{http://ices.dk/community/advisory-process/}.
-
+#' \url{https://ices.dk/about-ICES/how-we-work/Pages/Advisory_process.aspx}
 NA
