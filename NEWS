@@ -9,6 +9,8 @@ o Added example data frame gss to demonstrate the calculation of an age range
 o Improved mohn() to support 'main', 'xlab', and 'ylab'. Code contributed by
   Ruben Verkempynck and Raphael Girardin.
 
+o Added ICES (2020) reference to mohn() help page.
+
 
 
 
