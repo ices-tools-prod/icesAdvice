@@ -43,6 +43,5 @@
 #' @author Arni Magnusson, Colin Millar, and Anne Cooper.
 #'
 #' @references
-#' ICES advisory process:
-#' \url{https://ices.dk/about-ICES/how-we-work/Pages/Advisory_process.aspx}
+#' ICES advice: \url{https://ices.dk/advice}
 NA
