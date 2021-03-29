@@ -66,6 +66,11 @@ ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
 assessment. \emph{Draft document version 7 (2018-04-03), available at the
 Expert Groups area on the ICES Sharepoint.}
 
+ICES (2020) Workshop on Catch Forecast from Biased Assessments (WKFORBIAS;
+outputs from 2019 meeting).
+\href{https://doi.org/10.17895/ices.pub.5997}{\emph{ICES Scientific Reports
+2(28)}}.
+
 Mohn, R. (1999) The retrospective problem in sequential population analysis:
 An investigation using cod fishery and simulated data. \emph{ICES Journal of
 Marine Science}, \bold{56}, 473--488.

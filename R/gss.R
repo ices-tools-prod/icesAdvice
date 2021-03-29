@@ -22,8 +22,7 @@
 #'
 #' @details
 #' The data were presented and analyzed at the 2020 ICES Benchmark Workshop on
-#' Greater Silver Smelt
-#' (\url{https://github.com/ices-eg/wk_WKGSS/tree/master/Fbar}).
+#' Greater Silver Smelt.
 #'
 #' @source
 #' \url{https://stockassessment.org/datadisk/stockassessment/userdirs/user3/ARU.27.5b6a_WKGSS2020_FINAL/data/cn.dat}
