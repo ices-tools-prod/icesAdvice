@@ -25,8 +25,7 @@ Catch at age of greater silver smelt in areas 5b and 6a, in crosstab format.
 }
 \details{
 The data were presented and analyzed at the 2020 ICES Benchmark Workshop on
-Greater Silver Smelt
-(\url{https://github.com/ices-eg/wk_WKGSS/tree/master/Fbar}).
+Greater Silver Smelt.
 }
 \examples{
 gss
