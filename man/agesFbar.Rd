@@ -87,3 +87,6 @@ agesFbar(cn5)
 
 \code{\link{icesAdvice-package}} gives an overview of the package.
 }
+\author{
+Arni Magnusson.
+}

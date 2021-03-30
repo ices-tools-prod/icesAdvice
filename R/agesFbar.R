@@ -41,6 +41,8 @@
 #' 15 is inside the range, so rounding the upper age of Fbar to 14 is
 #' appropriate. See \code{plot = TRUE} example below.
 #'
+#' @author Arni Magnusson.
+#'
 #' @seealso
 #' \code{\link{gss}} is an example catch-at-age table.
 #'
