@@ -15,5 +15,6 @@ Description: A collection of functions that facilitate computational steps
 License: GPL-3
 URL: https://ices.dk/advice
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 6.1.1
+URL: https://github.com/ices-tools-prod/icesAdvice
 Roxygen: list(old_usage=TRUE)
