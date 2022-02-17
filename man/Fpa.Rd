@@ -39,7 +39,7 @@ Fpa(0.90, 0.15)
 }
 \references{
 ICES (2017) ICES fisheries management reference points for category 1 and 2
-stocks. \href{https://doi.org/10.17895/ices.pub.3036}{\emph{ICES Advice
+stocks. \doi{10.17895/ices.pub.3036}{\emph{ICES Advice
 Technical Guidelines 12.4.3.1}}.
 }
 \seealso{

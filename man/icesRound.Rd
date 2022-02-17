@@ -61,7 +61,7 @@ print(data.frame(Actual = as.character(Actual), Rounded), row.names = FALSE)
 }
 \references{
 ICES (2017) Rounding rules to be applied in ICES advice.
-\href{https://doi.org/10.17895/ices.pub.3038}{\emph{ICES Advice Technical
+\doi{10.17895/ices.pub.3038}{\emph{ICES Advice Technical
 Guidelines 16.5.4}}.
 }
 \seealso{
