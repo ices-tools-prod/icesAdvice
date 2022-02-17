@@ -9,3 +9,8 @@ New maintainer:
   Colin Millar <colin.millar@ices.dk>
 Old maintainer(s):
   Arni Magnusson <arni.magnusson@ices.dk>
+
+## Notes
+
+* updates to DESCRIPTION
+* documentation edit: \href{} -> \doi{}
