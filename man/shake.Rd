@@ -16,9 +16,10 @@ Data frame containing 6 columns:
 }
 }
 \source{
-ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
-assessment. \emph{Draft document version 7 (2018-04-03), available at the
-Expert Groups area on the ICES Sharepoint.}
+ICES (2018).
+Guidelines for calculating Mohn's rho: Retrospective bias in assessment.
+\emph{Draft document version 7 (2018-04-03), available at the Expert Groups
+area on the ICES Sharepoint.}
 }
 \usage{
 shake

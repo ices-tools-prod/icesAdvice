@@ -42,10 +42,11 @@
 #' @author Anne Cooper and Arni Magnusson.
 #'
 #' @references
-#' ICES (2012) ICES DLS guidance report: ICES implementation of advice for
-#' data-limited stocks in 2012 in its 2012 advice.
-#' \href{http://ices.dk/sites/pub/Publication\%20Reports/Expert\%20Group\%20Report/acom/2012/ADHOC/DLS\%20Guidance\%20Report\%202012.pdf}{\emph{ICES
-#' CM 2012/ACOM:68}}.
+#' ICES (2012).
+#' ICES DLS guidance report: ICES implementation of advice for data-limited
+#' stocks in 2012 in its 2012 advice.
+#' \emph{ICES CM 2012/ACOM:68}.
+#' \doi{10.17895/ices.pub.5322}.
 #'
 #' @seealso
 #' \code{\link{read.dls}} and \code{\link{write.dls}} read and write DLS3.2
