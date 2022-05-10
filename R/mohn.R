@@ -45,7 +45,7 @@
 #'
 #' ICES (2020) Workshop on Catch Forecast from Biased Assessments (WKFORBIAS;
 #' outputs from 2019 meeting).
-#' \href{https://doi.org/10.17895/ices.pub.5997}{\emph{ICES Scientific Reports
+#' \doi{10.17895/ices.pub.5997}{\emph{ICES Scientific Reports
 #' 2(28)}}.
 #'
 #' Mohn, R. (1999) The retrospective problem in sequential population analysis:

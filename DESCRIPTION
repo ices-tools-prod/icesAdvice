@@ -1,6 +1,5 @@
 Package: icesAdvice
-Version: 2.1.0
-Date: 2021-01-22
+Version: 2.1.1
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role="aut"),
              person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk"),
@@ -13,7 +12,8 @@ Description: A collection of functions that facilitate computational steps
   related to advice for fisheries management, according to ICES guidelines.
   These include methods for calculating reference points and model diagnostics.
 License: GPL-3
-URL: https://ices.dk/advice
+URL: https://ices.dk/advice, https://github.com/ices-tools-prod/icesAdvice
+BugReports: https://github.com/ices-tools-prod/icesAdvice/issues
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Roxygen: list(old_usage=TRUE)

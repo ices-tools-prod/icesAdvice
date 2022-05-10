@@ -52,6 +52,5 @@ encounter problems or have suggestions for future versions.
 The current development version can be installed using:
 
 ```R
-library(remotes)
-install_github("ices-tools-prod/icesAdvice")
+install.packages('icesAdvice', repos = 'https://ices-tools-prod.r-universe.dev')
 ```
