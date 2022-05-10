@@ -23,9 +23,10 @@
 #' @author Arni Magnusson.
 #'
 #' @references
-#' ICES (2017) ICES fisheries management reference points for category 1 and 2
-#' stocks. \doi{10.17895/ices.pub.3036}{\emph{ICES Advice
-#' Technical Guidelines 12.4.3.1}}.
+#' ICES (2017).
+#' ICES fisheries management reference points for category 1 and 2 stocks.
+#' \emph{ICES Advice Technical Guidelines 12.4.3.1}.
+#' \doi{10.17895/ices.pub.3036}.
 #'
 #' @seealso
 #' \code{\link{Fpa}} calculates that reference point from Flim and sigmaF.

@@ -60,9 +60,10 @@ print(data.frame(Actual = as.character(Actual), Rounded), row.names = FALSE)
 
 }
 \references{
-ICES (2017) Rounding rules to be applied in ICES advice.
-\doi{10.17895/ices.pub.3038}{\emph{ICES Advice Technical
-Guidelines 16.5.4}}.
+ICES (2017).
+Rounding rules to be applied in ICES advice.
+\emph{ICES Advice Technical Guidelines 16.5.4}.
+\doi{10.17895/ices.pub.3038}.
 }
 \seealso{
 \code{\link{signif}} rounds values to a specified number of significant

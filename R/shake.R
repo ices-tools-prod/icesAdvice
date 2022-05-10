@@ -25,9 +25,10 @@
 #' on quantifying and reporting retrospective bias.
 #'
 #' @source
-#' ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
-#' assessment. \emph{Draft document version 7 (2018-04-03), available at the
-#' Expert Groups area on the ICES Sharepoint.}
+#' ICES (2018).
+#' Guidelines for calculating Mohn's rho: Retrospective bias in assessment.
+#' \emph{Draft document version 7 (2018-04-03), available at the Expert Groups
+#' area on the ICES Sharepoint.}
 #'
 #' @seealso
 #' \code{\link{mohn}} calculates Mohn's rho.

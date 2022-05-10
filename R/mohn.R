@@ -34,23 +34,29 @@
 #' @author Arni Magnusson, with a contribution from Ruben Verkempynck.
 #'
 #' @references
-#' Brooks, E. N. and Legault, C. M. (2016) Retrospective forecasting ---
-#' evaluating performance of stock projections in New England groundfish stocks.
+#' Brooks, E. N. and Legault, C. M. (2016).
+#' Retrospective forecasting --- evaluating performance of stock projections in
+#' New England groundfish stocks.
 #' \emph{Canadian Journal of Fisheries and Aquatic Sciences}, \bold{73},
 #' 935--950.
+#' \doi{10.1139/cjfas-2015-0163}.
 #'
-#' ICES (2018) Guidelines for calculating Mohn's rho: Retrospective bias in
-#' assessment. \emph{Draft document version 7 (2018-04-03), available at the
-#' Expert Groups area on the ICES Sharepoint.}
+#' ICES (2018).
+#' Guidelines for calculating Mohn's rho: Retrospective bias in assessment.
+#' \emph{Draft document version 7 (2018-04-03), available at the Expert Groups
+#' area on the ICES Sharepoint.}
 #'
-#' ICES (2020) Workshop on Catch Forecast from Biased Assessments (WKFORBIAS;
-#' outputs from 2019 meeting).
-#' \doi{10.17895/ices.pub.5997}{\emph{ICES Scientific Reports
-#' 2(28)}}.
+#' ICES (2020).
+#' Workshop on Catch Forecast from Biased Assessments (WKFORBIAS; outputs from
+#' 2019 meeting).
+#' \emph{ICES Scientific Reports 2(28)}.
+#' \doi{10.17895/ices.pub.5997}.
 #'
-#' Mohn, R. (1999) The retrospective problem in sequential population analysis:
-#' An investigation using cod fishery and simulated data. \emph{ICES Journal of
-#' Marine Science}, \bold{56}, 473--488.
+#' Mohn, R. (1999).
+#' The retrospective problem in sequential population analysis: An investigation
+#' using cod fishery and simulated data.
+#' \emph{ICES Journal of Marine Science}, \bold{56}, 473--488.
+#' \doi{10.1006/jmsc.1999.0481}.
 #'
 #' @seealso
 #' \code{\link{shake}} is a retrospective example table.
