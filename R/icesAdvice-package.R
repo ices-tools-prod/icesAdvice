@@ -1,5 +1,3 @@
-#' @docType package
-#'
 #' @name icesAdvice-package
 #'
 #' @aliases icesAdvice
@@ -44,5 +42,4 @@
 #'
 #' @references
 #' ICES advice: \url{https://ices.dk/advice}
-
-NA
+"_PACKAGE"
