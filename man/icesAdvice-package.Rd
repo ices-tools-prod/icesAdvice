@@ -42,6 +42,15 @@ methods for calculating reference points and model diagnostics.
 \references{
 ICES advice: \url{https://ices.dk/advice}
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://ices.dk/advice}
+  \item \url{https://github.com/ices-tools-prod/icesAdvice}
+  \item Report bugs at \url{https://github.com/ices-tools-prod/icesAdvice/issues}
+}
+
+}
 \author{
 Arni Magnusson, Colin Millar, and Anne Cooper.
 }

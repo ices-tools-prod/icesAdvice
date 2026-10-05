@@ -1,3 +1,7 @@
+## icesAdvice 2.1.2 (2026-10-05)
+
+- documentation edits only: see also section in package info.
+
 ## icesAdvice 2.1.1 (2022-02-17)
 
 - documentation edits only \href{} -> \doi{}

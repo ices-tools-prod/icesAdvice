@@ -1,5 +1,5 @@
 Package: icesAdvice
-Version: 2.1.1
+Version: 2.1.2
 Title: Functions Related to ICES Advice
 Authors@R: c(person("Arni", "Magnusson", role="aut"),
              person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk"),
@@ -15,5 +15,5 @@ License: GPL-3
 URL: https://ices.dk/advice, https://github.com/ices-tools-prod/icesAdvice
 BugReports: https://github.com/ices-tools-prod/icesAdvice/issues
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
 Roxygen: list(old_usage=TRUE)
